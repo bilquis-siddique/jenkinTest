@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
 /*
- *Author is Bilquis 
+ *Author is Bilquis Haq. 
  * 
  */
 public class dynamicElement {
@@ -33,7 +33,7 @@ public class dynamicElement {
 		
 		WebElement contactLink = driver.findElement(By.xpath("//span[@class='item-text'][contains(text(), 'Contacts')]"));
 		contactLink.click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		WebElement chkBox = driver.findElement(By.xpath("//td[contains(text(), 'Farah Siddique')]//preceding-sibling::td//input[@name='id']"));
 		
