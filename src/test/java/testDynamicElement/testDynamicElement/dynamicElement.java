@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 
 /*
  *Author is Bilquis Haq. 
- * 
+ * Made changes for Github branch
  */
 public class dynamicElement {
 
